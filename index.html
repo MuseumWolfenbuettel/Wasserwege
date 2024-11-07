@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasserwege</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .instruction {
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .small-button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #555555;
+        }
+        .logo {
+            display: block;
+            margin: 40px auto 0 auto;
+            width: 200px; /* Задайте нужный размер логотипа */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wasserwege</h1>
+        
+        <!-- Аудиоплеер для файла Wasserwege -->
+        <audio controls controlslist="nodownload">
+            <source src="Wasserwege.mp3" type="audio/mpeg">
+            Ihr Browser unterstützt die Audio-Wiedergabe nicht.
+        </audio>
+        
+        <!-- Основной текст -->
+        <p>
+            Wasser und Wolfenbüttel ist eine lebenslange Verbindung, die Segen und Fluch zugleich bedeutet. Menschen kamen in diese Gegend, weil die Oker Trinkwasser und Schutz bei Angriffen gab. Mit Hilfe niederländischer Baumeister wurde im 16. Jahrhundert ein Kanalsystem angelegt, das den sumpfigen Boden trockenlegte und in bebaubares Land umwandelte. Zudem dienten die Grachten als Transportwege für Kähne und Flöße oder man nutzte die Wasserkraft um Mühlen zu betreiben.
+            Die Anlage der Grachten förderte das Handwerk und die vielen kleinen Kanäle, die die ganze Stadt durchzogen, boten den besten Brandschutz, den man sich in einer Fachwerkstadt aus Holz vorstellen konnte. Quasi jedes Wolfenbütteler Haus hatte Zugang zu Okerwasser.
+            Doch die Okerarme fungierten nicht nur als Brauch-, sondern auch als Abwasser. Die Kanäle entwickelten sich zu gefährlichen Keimherden. Epidemien wie die Pest, Typhus und Cholera waren daher keine Seltenheit. Die meterhohen Festungsmauern ließen den Abzug des Gestanks nur schwerlich zu. Erst als man im 19. Jahrhundert damit begann, die Grachten zu schließen und die Festung abzutragen, besserte sich die Stadthygiene merklich. Die Bedrohung durch Überschwemmungen blieb.
+        </p>
+        
+        <!-- Текст-инструкция -->
+        <p class="instruction">Weiter mit der Taste 6</p>
+        
+        <!-- Контейнер для кнопок -->
+        <div class="button-container">
+            <!-- Кнопка 5, ведущая на предыдущую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/Die-Stadt-im-Jahr-1747/" class="button small-button">5</a>
+            
+            <!-- Кнопка 6, ведущая на следующую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/Buerger-Museum/" class="button">6</a>
+        </div>
+
+        <!-- Логотип под кнопками -->
+        <img src="Museum_Wolfenbuettel.jpg" alt="Museum Logo" class="logo">
+    </div>
+</body>
+</html>
